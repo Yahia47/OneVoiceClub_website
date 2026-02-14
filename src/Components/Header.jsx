@@ -32,9 +32,8 @@ const Header = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 shadow-lg transition-transform duration-500 ease-in-out ${
-        isVisible ? "translate-y-0" : "-translate-y-full"
-      } ${goldGradient}`}
+      className={`fixed top-0 w-full z-50 shadow-lg transition-transform duration-500 ease-in-out ${isVisible ? "translate-y-0" : "-translate-y-full"
+        } ${goldGradient}`}
     >
       {/* Main Header Row */}
       <div className="flex justify-between items-center p-5 max-w-7xl mx-auto">

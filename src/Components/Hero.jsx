@@ -24,6 +24,10 @@ const Hero = () => {
                 Who are We
               </h2>
             </div>
+            {/* Subtitle - New addition */}
+            <p className="text-amber-300/80 text-sm sm:text-base uppercase tracking-[0.3em] mb-8 sm:mb-12 font-light">
+              One Voice • One Vision • One Community
+            </p>
 
             {/* Content Card */}
             <div className="relative max-w-4xl mx-auto mt-8 sm:mt-16">
@@ -115,7 +119,7 @@ const Hero = () => {
           className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer"
           onClick={() =>
             document
-              .getElementById("activities")
+              .getElementById("activity")
               ?.scrollIntoView({ behavior: "smooth" })
           }
         >
